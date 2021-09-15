@@ -126,7 +126,7 @@ colour.coef <- XYZ %>%
 
 #' At this stage yo ucould also merge the data, by the file id, with other meta data e.g., location, depth etc.
 #+ eval = FALSE
-write.csv(x = colour.coef, file = "testing.csv")
+write.csv(x = colour.coef, file = "testing.csv", row.names = F)
 
 #' # Session Info and Data
 
